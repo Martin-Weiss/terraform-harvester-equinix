@@ -20,8 +20,9 @@ install:
       enabled: true
       values_content: ""
     rancher_logging:
-      enabledtruee
+      enabled: true
       values_content: ""
+
 %{ if cluster_registration_url != "" }
 system_settings:
   cluster-registration-url: ${cluster_registration_url}
